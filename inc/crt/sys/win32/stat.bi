@@ -71,6 +71,11 @@ declare function _stati64 (byval as zstring ptr, byval as _stati64 ptr) as long
 declare function _wstat (byval as wchar_t ptr, byval as _stat ptr) as long
 declare function _wstati64 (byval as wchar_t ptr, byval as _stati64 ptr) as long
 
+declare function fstat (byval as long, byval as _stat ptr) as long
+declare function chmod (byval as zstring ptr, byval as long) as long
+declare function stat (byval as zstring ptr, byval as _stat ptr) as long
+
+
 end extern
 
 #endif
