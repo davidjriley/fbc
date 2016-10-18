@@ -14,16 +14,10 @@
 
 #if defined(__FB_WIN32__)
 #include once "crt/sys/win32/stat.bi"
+#elseif define(__FB_LINUX__)
+#include once "crt/sys/linux/stat.bi"
 #else
-#error Unsupported platform
+#error Platform unsupported
 #endif
-
-extern "C"
-
-declare function fstat (byval as long, byval as _stat ptr) as long
-declare function chmod (byval as zstring ptr, byval as long) as long
-declare function stat (byval as zstring ptr, byval as _stat ptr) as long
-
-end extern
 
 #endif
