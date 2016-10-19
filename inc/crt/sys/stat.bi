@@ -14,7 +14,7 @@
 
 #if defined(__FB_WIN32__)
 #include once "crt/sys/win32/stat.bi"
-#elseif define(__FB_LINUX__)
+#elseif defined(__FB_LINUX__)
 #include once "crt/sys/linux/stat.bi"
 #else
 #error Platform unsupported
