@@ -11,6 +11,8 @@
 
 #include once "crt/long.bi"
 
+#include once "getopt.bi"
+
 #define _POSIX_VERSION 200112L
 #define _POSIX2_VERSION 200112L
 #define _POSIX2_C_BIND 200112L
@@ -160,6 +162,7 @@ declare function brk (byval __addr as any ptr) as long
 declare function sbrk (byval __delta as intptr_t) as any ptr
 declare function syscall (byval __sysno as long, ...) as long
 declare function fdatasync (byval __fildes as long) as long
+
 end extern
 
 extern __environ alias "__environ" as byte ptr ptr
