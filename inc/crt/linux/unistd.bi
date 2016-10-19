@@ -11,7 +11,7 @@
 
 #include once "crt/long.bi"
 
-#include once "getopt.bi"
+#include once "crt/getopt.bi"
 
 #define _POSIX_VERSION 200112L
 #define _POSIX2_VERSION 200112L
