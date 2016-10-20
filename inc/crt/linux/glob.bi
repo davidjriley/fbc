@@ -1,5 +1,5 @@
-#ifndef _CRT_LINUX_GLOB_BI_
-#define _CRT_LINUX_GLOB_BI_
+#ifndef _crt_linux_glob_bi_
+#define _crt_linux_glob_bi_
 
 #include "crt/stddef.bi"
 

@@ -1,5 +1,5 @@
-#ifndef _CRT_LINUX_PWD_BI
-#define _CRT_LINUX_PWD_BI
+#ifndef _crt_linux_pwd_bi_
+#define _crt_linux_pwd_bi_
 
 #include once "crt/sys/types.bi"
 
